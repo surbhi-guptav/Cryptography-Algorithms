@@ -19,6 +19,8 @@ This repository contains basic implementations of various cryptography algorithm
 - Rail Fence Cipher
   - Encrypt
   - Decrypt
+- Row Transposition Cipher
+- Substitution Box (S-box)
 - Vigenere Cipher
   - Encrypt
   - Decrypt
@@ -26,11 +28,13 @@ This repository contains basic implementations of various cryptography algorithm
 ## Asymmetric Key Algorithms
 - Diffie-Hellman Key Exchange
 - Elliptic Curve Cryptography (ECC)
+- ECC Curve Diagram
 - RSA Algorithm
 
 ## Hashing and Message Authentication Code (MAC)
 - Combined Hash Function
 - HMAC (Hash-based Message Authentication Code)
+- Hierarchical Encryption
 - Independent Hash Function
 - One-Way Hash Function
 - Repeated Hash Function
@@ -42,23 +46,17 @@ This repository contains basic implementations of various cryptography algorithm
 - Electronic Codebook (ECB) Mode
 - Output Feedback (OFB) Mode
 
-## Miscellaneous
-- Key Expansion (4-6)
-- Compression Function (6-4)
-- ECC Curve Diagram
+## Algorithms and Theorems
 - Euler's Totient Function
 - Extended Euclidean Algorithm
 - Fermat's Theorem
 - Galois Field Arithmetic
-- Hierarchical Encryption
 - Modular Inverse
 - Modular Arithmetic
 - Mangler Function
 - One-Time Pad
-- Row Transposition Cipher
-- Substitution Box (S-box)
-- Temporary Code Runner File
-- Triple DES Implementation
+- Key Expansion (4-6)
+- Compression Function (6-4)
 
 Each algorithm is accompanied by detailed comments and explanations to aid understanding of how they work and how they can be applied in different contexts.
 
