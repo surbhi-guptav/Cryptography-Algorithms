@@ -1,19 +1,13 @@
 # Cryptography Algorithms and Techniques
-This repository contains basic implementations of various cryptography algorithms and techniques. The code provided here serves as educational examples of classical and modern encryption methods. Current implementations include:
+This repository contains basic implementations of various cryptography algorithms and techniques. These code examples include classical ciphers and modern encryption methods, such as Caesar Cipher, AES, DES, and RSA, among others.
 
-## Symmetric Key Algorithms
-- Triple DES
-- Advanced Encryption Standard (AES)
-- Blowfish Encryption
-- Data Encryption Standard (DES)
-- Feistel Network
-- International Data Encryption Algorithm (IDEA)
-- Modified IDEA
+# Important Notice
+Disclaimer: These implementations are intended solely for educational purposes. They are simplified versions and do not represent secure or production-ready code. Due to security and privacy concerns, the real-world cryptographic implementations cannot be made public. Therefore, do not use these codes in any actual security-sensitive applications.
 
 ## Classical Ciphers
-- Caesar Cipher
 - Affine Cipher
 - ADFGVX Cipher
+- Caesar Cipher
 - Homophonic Substitution Cipher
 - Playfair Cipher
 - Rail Fence Cipher
@@ -25,6 +19,15 @@ This repository contains basic implementations of various cryptography algorithm
   - Encrypt
   - Decrypt
 
+## Symmetric Key Algorithms
+- Advanced Encryption Standard (AES)
+- Blowfish Encryption
+- Data Encryption Standard (DES)
+- Feistel Network
+- International Data Encryption Algorithm (IDEA)
+- Modified IDEA
+- Triple DES
+
 ## Asymmetric Key Algorithms
 - Diffie-Hellman Key Exchange
 - Elliptic Curve Cryptography (ECC)
@@ -33,12 +36,14 @@ This repository contains basic implementations of various cryptography algorithm
 
 ## Hashing and Message Authentication Code (MAC)
 - Combined Hash Function
+- Digital Signature Standard
 - HMAC (Hash-based Message Authentication Code)
 - Hierarchical Encryption
 - Independent Hash Function
+- Message Authentication Code (MAC)
 - One-Way Hash Function
 - Repeated Hash Function
-- Message Authentication Code (MAC)
+- Sequential Hash Function
 
 ## Cryptographic Modes of Operation
 - Cipher Block Chaining (CBC) Mode
@@ -47,7 +52,9 @@ This repository contains basic implementations of various cryptography algorithm
 - Output Feedback (OFB) Mode
 
 ## Algorithms and Theorems
+- Compression Function (6-4)
 - Euler's Totient Function
+- Expansion Box (4-6)
 - Extended Euclidean Algorithm
 - Fermat's Theorem
 - Galois Field Arithmetic
@@ -55,8 +62,7 @@ This repository contains basic implementations of various cryptography algorithm
 - Modular Arithmetic
 - Mangler Function
 - One-Time Pad
-- Key Expansion (4-6)
-- Compression Function (6-4)
+- Strem Cipher
 
 Each algorithm is accompanied by detailed comments and explanations to aid understanding of how they work and how they can be applied in different contexts.
 
