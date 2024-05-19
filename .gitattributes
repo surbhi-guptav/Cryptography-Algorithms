@@ -1,2 +1,40 @@
-# Auto detect text files and perform LF normalization
+# Normalize all text files to use LF line endings
 * text=auto
+
+# Treat all Python scripts as text files
+*.py text
+
+# Treat Markdown files as text files and use a custom diff driver if needed
+*.md text
+*.md diff=markdown
+
+# Treat image files as binary
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Treat any potential large data files or binaries as binary
+*.dat binary
+*.bin binary
+
+# Exclude log files and temporary files from export
+*.log export-ignore
+*.tmp export-ignore
+tempCodeRunnerFile export-ignore
+
+# Override language detection for specific file types if necessary
+# For example, if you have custom extensions
+#*.cryptolinguist-language=Python
+
+# Handle JSON files with the union merge strategy to minimize conflicts
+*.json merge=union
+
+# Treat other common text files
+*.txt text
+*.yml text
+*.yaml text
+*.xml text
+
+# Documentation files
+*.pdf binary
+*.docx binary
